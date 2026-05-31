@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navBar">
+        <ul class="navList">
+            <li><a href="#search-area">Home</a></li>
+            <li><a href="#" class="search-button-nav">Search</a></li>
+            <li><a href="#footer">About us</a></li>
+            <li><a href="#footer">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="search-area">
+            <header>
+                <h1>Welcome to WeatherDekho.com</h1>
+                <p>Paye har gali Nukkad ka musam ka haal Seedha commputer screen par</p>
+            </header>
+            <input type="text" placeholder="Enter the city" class="search-box">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="search-result">
+            <div class="currentLocation">
+
+            </div>
+            <div class="defaultLocations">
+                <div class="default-location" id="default-location-1">
+                    <img src="" alt="weather icon">
+                    <p class="location-name-1">New Delhi</p>
+
+                </div>
+                <div class="default-location" id="default-location-2">
+                    <img src="" alt="weather icon">
+                    <p class="location-name-2">Mumbai</p>
+
+                </div>
+                <div class="default-location" id="default-location-3">
+                    <img src="" alt="weather icon">
+                    <p class="location-name-3">Kolkata</p>
+
+                </div>
+            </div>
+            <div class="searched-location hidden"></div>
+        </div>
+        <footer id="footer">
+            <div class="footer-links">
+                <a href="#search-area">Home</a>
+                <a href="mailto:vivekj2486@gmail.com">Contact Us</a>
+            </div>
+            
+            <p>&copy; 2026 WeatherDekho.com. All rights reserved.</p>
+        
+        <div class="about">Welcome to WeatherDekho.com, your simple and reliable destination for weather
+            updates. Our goal is to provide accurate and easy-to-understand weather information so you can plan
+            your day with confidence.
+
+            Whether you're checking the weather in your current location or searching for conditions in another
+            city, WeatherDekho.com delivers real-time weather details, including temperature, humidity, wind
+            speed, and more.
+
+            Built with modern web technologies and powered by trusted weather data sources, our platform is
+            designed to make weather information accessible, fast, and user-friendly.
+
+            Thank you for choosing WeatherDekho.com. Stay informed, stay prepared!</div>
+            </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
