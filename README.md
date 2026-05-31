@@ -26,9 +26,13 @@ WeatherDekho is a weather application built using HTML, CSS, and Vanilla JavaScr
 
 ## Screenshots
 
-Home Page- images/Screenshot 2026-05-31 135216.png
-Deafult locations- images/Screenshot 2026-05-31 135238.png
+### Home Page
 
+![Home Page](images/Screenshot%202026-05-31%20135216.png)
+
+### Default Locations
+
+![Default Locations](images/Screenshot%202026-05-31%20135238.png)
 ## Installation
 
 1. Clone the repository:
